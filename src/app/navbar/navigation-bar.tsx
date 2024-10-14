@@ -90,7 +90,8 @@ export function NavigationBar() {
                 Únase a nuestro foro de consultas y gane puntos.
               </ListItem>
               <ListItem title="Planos y estudios" href="#secondsectionB">
-                Prueba "Confección TE1 Express" y demás servicios y asesorías.
+                Prueba &quot;Confección TE1 Express&quot; y demás servicios y asesorías.
+               
               </ListItem>
             </ul>
           </NavigationMenuContent>

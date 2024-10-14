@@ -10,7 +10,7 @@ function Cierre() {
       </header>
       <div className="text-lg text-center max-w-md mb-8">
         <p>
-           En minutos revisa la sección "Tus proyectos". Puedes cerrar esta página. 
+           En minutos revisa la sección &quot;Tus proyectos&quot;. Puedes cerrar esta página. 
         </p>
         <p>
           ¡Gracias por tu visita! 

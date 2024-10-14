@@ -41,7 +41,7 @@ const FileSvgDraw = () => {
         -Máximo 5 archivos de imagen.
       </p>
       <p className="text-xs text-gray-500 dark:text-gray-400 text-center mt-1">
-        -Si cuenta con planta arquitectónica, por favor ir a "Inicio/Otros".
+        -Si cuenta con planta arquitectónica, por favor ir a &quot;Inicio/Otros&quot;.
       </p>
     </>
   );

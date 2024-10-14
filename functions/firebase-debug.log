@@ -1,0 +1,69 @@
+[debug] [2024-06-08T16:55:12.475Z] ----------------------------------------------------------------------
+[debug] [2024-06-08T16:55:12.485Z] Command:       /home/drawingsmachines/.nvm/versions/node/v20.7.0/bin/node /home/drawingsmachines/.var/app/com.visualstudio.code/data/node_modules/bin/firebase functions:shell
+[debug] [2024-06-08T16:55:12.487Z] CLI Version:   13.0.2
+[debug] [2024-06-08T16:55:12.488Z] Platform:      linux
+[debug] [2024-06-08T16:55:12.490Z] Node Version:  v20.7.0
+[debug] [2024-06-08T16:55:12.491Z] Time:          Sat Jun 08 2024 12:55:12 GMT-0400 (hora estándar de Chile)
+[debug] [2024-06-08T16:55:12.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-08T16:55:12.856Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-08T16:55:12.859Z] > authorizing via signed-in user (contacto@drawingsmachines.com)
+[debug] [2024-06-08T16:55:12.860Z] [iam] checking project test-rev4 for permissions ["firebase.projects.get"]
+[debug] [2024-06-08T16:55:12.876Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/test-rev4:testIamPermissions [none]
+[debug] [2024-06-08T16:55:12.878Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/test-rev4:testIamPermissions x-goog-quota-user=projects/test-rev4
+[debug] [2024-06-08T16:55:12.879Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/test-rev4:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-06-08T16:55:14.243Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/test-rev4:testIamPermissions 200
+[debug] [2024-06-08T16:55:14.257Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/test-rev4:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-06-08T16:55:14.304Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-08T16:55:14.853Z] defaultcredentials: writing to file /home/drawingsmachines/.config/firebase/contacto_drawingsmachines_com_application_default_credentials.json
+[debug] [2024-06-08T16:55:14.882Z] DEBUG: Setting GAC to /home/drawingsmachines/.config/firebase/contacto_drawingsmachines_com_application_default_credentials.json
+[debug] [2024-06-08T16:55:14.884Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-rev4/adminSdkConfig [none]
+[debug] [2024-06-08T16:55:15.455Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-rev4/adminSdkConfig 200
+[debug] [2024-06-08T16:55:15.482Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-rev4/adminSdkConfig {"projectId":"test-rev4","storageBucket":"test-rev4.appspot.com"}
+[debug] [2024-06-08T16:55:17.397Z] [functions] Watching "/home/drawingsmachines/Documentos/react/nextjs/platform-v3/functions" for Cloud Functions...
+[debug] [2024-06-08T16:55:17.427Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-06-08T16:55:21.883Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.9.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2024-06-08T16:55:21.885Z] Building nodejs source
+[debug] [2024-06-08T16:55:21.898Z] Failed to find version of module node: reached end of search path /home/drawingsmachines/Documentos/react/nextjs/platform-v3/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-06-08T16:55:21.955Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-08T16:55:22.003Z] Found firebase-functions binary at '/home/drawingsmachines/Documentos/react/nextjs/platform-v3/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8655
+
+[debug] [2024-06-08T16:55:26.526Z] Got response from /__/functions.yaml {"endpoints":{"addToSheet":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/test-rev4/databases/(default)/documents/users/{userId}"},"retry":false},"labels":{},"entryPoint":"addToSheet"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-06-08T16:55:31.642Z] [functions] Loaded functions definitions from source: addToSheet.
+[debug] [2024-06-08T16:55:31.656Z] [functions[us-central1-addToSheet]] function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions: Loaded functions: addToSheet 
+[warn] ⚠  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub, storage, eventarc 

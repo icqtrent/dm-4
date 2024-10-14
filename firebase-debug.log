@@ -1,0 +1,115 @@
+[debug] [2024-10-12T07:31:33.655Z] ----------------------------------------------------------------------
+[debug] [2024-10-12T07:31:33.677Z] Command:       /home/drawingsmachines/.nvm/versions/node/v20.7.0/bin/node /home/drawingsmachines/.nvm/versions/node/v20.7.0/bin/firebase init hosting
+[debug] [2024-10-12T07:31:33.681Z] CLI Version:   13.22.0
+[debug] [2024-10-12T07:31:33.683Z] Platform:      linux
+[debug] [2024-10-12T07:31:33.684Z] Node Version:  v20.7.0
+[debug] [2024-10-12T07:31:33.686Z] Time:          Sat Oct 12 2024 04:31:33 GMT-0300 (hora de verano de Chile)
+[debug] [2024-10-12T07:31:33.688Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-12T07:31:34.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-12T07:31:34.391Z] > authorizing via signed-in user (contacto@drawingsmachines.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/drawingsmachines/Documentos/react/nextjs/platform-v3 (otra copia)
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-10-12T07:31:34.417Z] Using project from CLI flag: drawingsmachines-v2
+[debug] [2024-10-12T07:31:34.424Z] Checked if tokens are valid: true, expires at: 1728720202209
+[debug] [2024-10-12T07:31:34.426Z] Checked if tokens are valid: true, expires at: 1728720202209
+[debug] [2024-10-12T07:31:34.436Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 [none]
+[debug] [2024-10-12T07:31:35.717Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 200
+[debug] [2024-10-12T07:31:35.720Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 {"projectId":"drawingsmachines-v2","projectNumber":"783251943900","displayName":"drawingsmachines-v2","name":"projects/drawingsmachines-v2","resources":{"hostingSite":"drawingsmachines-v2"},"state":"ACTIVE","etag":"1_3226af79-7287-4ad4-8ede-c541ad1f940a"}
+[info] i  Using project drawingsmachines-v2 (drawingsmachines-v2) 
+[info] 
+=== Hosting Setup
+[debug] [2024-10-12T07:31:37.528Z] Checked if tokens are valid: true, expires at: 1728720202209
+[debug] [2024-10-12T07:31:37.529Z] Checked if tokens are valid: true, expires at: 1728720202209
+[debug] [2024-10-12T07:31:37.531Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 [none]
+[debug] [2024-10-12T07:31:37.894Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 200
+[debug] [2024-10-12T07:31:37.895Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 {"projectId":"drawingsmachines-v2","projectNumber":"783251943900","displayName":"drawingsmachines-v2","name":"projects/drawingsmachines-v2","resources":{"hostingSite":"drawingsmachines-v2"},"state":"ACTIVE","etag":"1_3226af79-7287-4ad4-8ede-c541ad1f940a"}
+[debug] [2024-10-12T07:32:58.393Z] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at findDependency (/home/drawingsmachines/.nvm/versions/node/v20.7.0/lib/node_modules/firebase-tools/lib/frameworks/utils.js:188:23)
+    at getNuxtVersion (/home/drawingsmachines/.nvm/versions/node/v20.7.0/lib/node_modules/firebase-tools/lib/frameworks/nuxt/utils.js:9:45)
+    at discover (/home/drawingsmachines/.nvm/versions/node/v20.7.0/lib/node_modules/firebase-tools/lib/frameworks/nuxt2/index.js:25:48)
+    at async discover (/home/drawingsmachines/.nvm/versions/node/v20.7.0/lib/node_modules/firebase-tools/lib/frameworks/index.js:47:32)
+    at async doSetup (/home/drawingsmachines/.nvm/versions/node/v20.7.0/lib/node_modules/firebase-tools/lib/init/features/hosting/index.js:88:31)
+    at async init (/home/drawingsmachines/.nvm/versions/node/v20.7.0/lib/node_modules/firebase-tools/lib/init/index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-10-14T03:12:56.318Z] ----------------------------------------------------------------------
+[debug] [2024-10-14T03:12:56.503Z] Command:       /home/drawingsmachines/.nvm/versions/node/v20.7.0/bin/node /home/drawingsmachines/.nvm/versions/node/v20.7.0/bin/firebase init
+[debug] [2024-10-14T03:12:56.506Z] CLI Version:   13.22.0
+[debug] [2024-10-14T03:12:56.507Z] Platform:      linux
+[debug] [2024-10-14T03:12:56.507Z] Node Version:  v20.7.0
+[debug] [2024-10-14T03:12:56.515Z] Time:          Mon Oct 14 2024 00:12:56 GMT-0300 (hora de verano de Chile)
+[debug] [2024-10-14T03:12:56.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-14T03:12:56.584Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-10-14T03:12:59.514Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-14T03:12:59.516Z] > authorizing via signed-in user (contacto@drawingsmachines.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/drawingsmachines/Documentos/react/nextjs/platform-v3 (otra copia)
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-10-14T03:13:00.622Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-10-14T03:13:00.650Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-10-14T03:13:34.445Z] Using project from CLI flag: drawingsmachines-v2
+[debug] [2024-10-14T03:13:34.452Z] Checked if tokens are valid: false, expires at: 1717868262032
+[debug] [2024-10-14T03:13:34.453Z] Checked if tokens are valid: false, expires at: 1717868262032
+[debug] [2024-10-14T03:13:34.462Z] > refreshing access token with scopes: []
+[debug] [2024-10-14T03:13:34.469Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-10-14T03:13:34.469Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-14T03:13:36.470Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-10-14T03:13:36.471Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-14T03:13:36.567Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 [none]
+[debug] [2024-10-14T03:13:37.099Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 200
+[debug] [2024-10-14T03:13:37.100Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 {"projectId":"drawingsmachines-v2","projectNumber":"783251943900","displayName":"drawingsmachines-v2","name":"projects/drawingsmachines-v2","resources":{"hostingSite":"drawingsmachines-v2"},"state":"ACTIVE","etag":"1_3226af79-7287-4ad4-8ede-c541ad1f940a"}
+[info] i  Using project drawingsmachines-v2 (drawingsmachines-v2) 
+[info] 
+=== Hosting Setup
+[debug] [2024-10-14T03:13:38.841Z] Checked if tokens are valid: true, expires at: 1728879215473
+[debug] [2024-10-14T03:13:38.854Z] Checked if tokens are valid: true, expires at: 1728879215473
+[debug] [2024-10-14T03:13:38.856Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 [none]
+[debug] [2024-10-14T03:13:39.203Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 200
+[debug] [2024-10-14T03:13:39.205Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/drawingsmachines-v2 {"projectId":"drawingsmachines-v2","projectNumber":"783251943900","displayName":"drawingsmachines-v2","name":"projects/drawingsmachines-v2","resources":{"hostingSite":"drawingsmachines-v2"},"state":"ACTIVE","etag":"1_3226af79-7287-4ad4-8ede-c541ad1f940a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

@@ -1,0 +1,45 @@
+{
+    "cables": [
+        {
+            
+            "cable": "Cordón HO5VV-F",
+            "aislacion": ["PVC"]
+        },
+        {
+            "cable": "Alambre NYA h07V-U",
+            "aislacion": ["PVC"]
+        },
+        {
+            "cable": "Cable H0771-K",
+            "aislacion": ["PVC"]
+        },
+        {
+            "cable": "Cable THHN",
+            "aislacion": ["PVC"]
+        },
+        {
+            "cable": "Cable Caleco",
+            "aislacion": ["PVC"]
+        },
+        {
+            "cable": "Cable Superflex",
+            "aislacion": ["XLPE"]
+        },
+        {
+            "cable": "Cable Preensamblado",
+            "aislacion": ["XLPE"]
+        },
+        {
+            "cable": "Cable Concéntrico",
+            "aislacion": ["PVC"]
+        },
+        {
+            "cable": "Cable Eva",
+            "aislacion": ["Evaflex"]
+        },
+        {
+            "cable": "Aluminio Subterráneo",
+            "aislacion": ["XLPE"]
+        }
+            ]
+}

@@ -4,8 +4,7 @@ interface FifthSectionProps {
   id?: string;
 }
 
-const FifthSection: React.FC<FifthSectionProps> = ({ id }) => {
-
+const FifthSection = ({ id }: FifthSectionProps) => {
   return (
     <section id={id} className="flex flex-col md:flex-row justify-center">
       <div className="border-[1px] md:w-2/3 mx-auto p-10 rounded-xl">
@@ -18,7 +17,10 @@ const FifthSection: React.FC<FifthSectionProps> = ({ id }) => {
           your business.
         </div>
 
-        <button aria-label="contact sales button" className="bg-blue-500 text-white px-6 py-3 md:w-1/4 mt-5 rounded-lg">
+        <button
+          aria-label="contact sales button"
+          className="bg-blue-500 text-white px-6 py-3 md:w-1/4 mt-5 rounded-lg"
+        >
           Contact Sales
         </button>
       </div>

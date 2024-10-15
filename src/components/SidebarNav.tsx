@@ -80,7 +80,7 @@ const SidebarNav: React.FC = ({}: Props) => {
         links={[
           {
             title: "Inicio",
-            href: "/",
+            href: "/dashboard",
             icon: LayoutDashboard,
             variant: "default",
           },

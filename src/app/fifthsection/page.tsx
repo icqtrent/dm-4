@@ -1,4 +1,4 @@
-const FifthSection = ({ id }: { id?: string }) => {
+const FifthSection = async ({ id }: { id?: string }) => {
   return (
     <section id={id} className="flex flex-col md:flex-row justify-center">
       <div className="border-[1px] md:w-2/3 mx-auto p-10 rounded-xl">
